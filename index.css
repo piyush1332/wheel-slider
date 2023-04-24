@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: verta, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/bg-cover.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.slider_container {
+  height: 720px;
+  width: 1152px;
+
+}
+
+.slider_title {
+  border-left: 11px solid black;
+  padding-left: 9px !important;
+}
+
+.slider_heading_container {
+  height: 210px;
+  width: 100%;
+}
+
+.slider_item {
+  float: left;
+  height: 292px;
+  width: 33.33%;
+  position: relative;
+  cursor: pointer;
+}
+
+.slider_item_image_holder {
+  height: 66%;
+}
+
+.slider_item_image_holder img {
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.slider_item_description {
+  text-align: center;
+  line-height: 23px;
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.slider_title,
+.slider_text {
+  padding: 20px;
+}
+
+.active_version {
+  width: 303px;
+  height: 443px;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  background-image: url(/assets/wheel-bg.jpg);
+  display: none;
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+
+.slider_item_container .active_version img {
+  width: 100%
+}
+
+.active_description_Heading {
+  font-weight: 600;
+}
+
+#forward_slider,
+#backward_slider {
+  background: transparent;
+  border: navajowhite;
+  width: 12px;
+  position: absolute;
+  top: 360px;
+  cursor: pointer;
+}
+
+#forward_slider i,
+#backward_slider i {
+  font-size: 30px;
+
+}
+
+#forward_slider {
+  right: 1%;
+}
+
+#backward_slider {
+  left: 1%;
+}

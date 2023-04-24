@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Slider</title>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="slider_container">
+      <div class="slider_heading_container">
+        <div class="slider_title">
+          WHEELS
+        </div>
+        <div class="slider_text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, eaque. Deserunt reiciendis asperiores
+          consectetur sunt nulla voluptatibus molestias, assumenda dignissimos. Eaque dolores repudiandae eius, rerum
+          voluptate doloremque sit sequi quasi.
+        </div>
+      </div>
+
+      <div class="slider_item_container" onclick="handleActiveImage(event)" id="slider_item_container">
+      </div>
+    </div>
+  </div>
+
+
+  <button onclick="forwardHandler()" id="forward_slider"><i class="fa fa-angle-right"></i></button>
+  <button onclick="backwardHandler()" id="backward_slider"><i class="fa fa-angle-left"></i></button>
+  <script src="index.js"></script>
+</body>
+
+</html>
