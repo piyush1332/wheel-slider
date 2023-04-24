@@ -64,7 +64,7 @@ const renderSlider = () => {
                     </div>
                     <div class="active_version">
                       <div class="slider_item_image_holder" data-source=${index}>
-                        <img src="/assets/${item}" alt="Image Not Available." data-source=${index}>
+                        <img src="./assets/${item}" alt="Image Not Available." data-source=${index}>
                       </div>
                       <div class="slider_item_description" data-source=${index}>
                         <div class="active_description_Heading" data-source=${index}> 17-INCH CAST ALUMINUM WHEEL, FULLY</div>
