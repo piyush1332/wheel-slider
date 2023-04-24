@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/assets/bg-cover.png');
+  background-image: url('./assets/bg-cover.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -71,7 +71,7 @@
   position: absolute;
   top: -20px;
   left: 30px;
-  background-image: url(/assets/wheel-bg.jpg);
+  background-image: url("./assets/wheel-bg.jpg");
   display: none;
   border: 2px solid lightgray;
   padding: 20px;
