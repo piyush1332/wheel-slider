@@ -54,7 +54,7 @@ const renderSlider = () => {
   activeItem().forEach((item, index) => {
     sliderItem += `<div class="slider_item" data-source=${index}>
                         <div class="slider_item_image_holder" data-source=${index} >
-                      <img src="/assets/${item}" alt="Image Not Available." data-source=${index}>
+                      <img src="./assets/${item}" alt="Image Not Available." data-source=${index}>
                     </div>
                     <div class="slider_item_description" data-source=${index}>
                       <div data-source=${index}> 17-INCH CAST ALUMINUM WHEEL, FULLY</div>
